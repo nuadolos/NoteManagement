@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Лента</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Генератор иконок - https://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+    <link rel="manifest" href="ico/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="nav-bar">
+            <div class="fixed-container"></div>
+        </div>
+    </header>
+
+    <div class="note">
+        <div class="affairs-note">
+            <h2>Список дел:</h2>
+
+            <!--Отображение списка дел-->
+            <div class="list-note">
+                <div class="list-note__null">Список пуст...</div>
+            </div>
+        </div>
+
+        <div class="add-new-note">
+            <h2>Добавить новое дело</h2>
+
+            <div class="form-note">
+                <div class="form-note__input">
+                    <label>* Название</label><br>
+                    <input id="form-note__name" type="text" placeholder="Введите название">
+                </div>
+
+                <div class="form-note__input">
+                    <label>* Описание</label><br>
+                    <textarea id="form-note__desc" type="text" placeholder="Введите описание"></textarea>
+                </div>
+
+                <div class="form-note__input">
+                    <button class="form-note__btn">Добавить дело</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-fotter">
+
+    </footer>
+</body>
+
+</html>
